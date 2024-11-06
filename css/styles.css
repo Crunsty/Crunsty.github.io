@@ -38,7 +38,8 @@ h3 {
     color: #37474F; /* Gris oscuro para texto general */
 }
 
-/* Tarjetas de contenido */
+
+/* Estilo de la Card */
 .card {
     background-color: #FFFFFF;
     border: 2px solid #B0BEC5;
@@ -48,15 +49,27 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease; /* Transición suave para el zoom */
 }
 
-
-/* Imágenes */
+/* Imágenes dentro de la Card */
 .imagen {
     max-width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Transición suave para la imagen */
 }
+
+/* Efecto hover de la card */
+.card:hover {
+    transform: scale(1.05); /* Agranda la card al pasar el ratón */
+}
+
+/* Efecto hover de la imagen */
+.imagen:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón */
+}
+
 
 /* Título del plato */
 .card h3 {
