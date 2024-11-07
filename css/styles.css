@@ -1,6 +1,12 @@
 /* Fondo principal */
+
 body {
-    background-color: #F0F4F8; /* Azul claro */
+    display: flex;
+    flex-wrap: wrap;  /* Permite el ajuste de elementos a varias filas */
+    flex-direction: column; /* Organiza los elementos verticalmente */
+    min-height: 100vh; /* Asegura que el contenido ocupe al menos toda la altura de la pantalla */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0;
 }
 
 /* Encabezado */
