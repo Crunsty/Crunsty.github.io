@@ -99,6 +99,19 @@ h3 {
     margin: 0 auto;
 }
 
+.contenedor_carrusel {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center; /* Centra el carrusel dentro del contenedor */
+}
+
+.carousel-item img {
+    border: 5px solid beige; /* Cambia el color y grosor del borde según prefieras */
+    border-radius: 20px; /* Opcional: bordes redondeados */
+    margin: 0 auto; /* Centra la imagen dentro del slide */
+}
+
+
 /* Enlaces */
 a {
     color: #039BE5; /* Azul vibrante para enlaces */
